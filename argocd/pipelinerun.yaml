@@ -1,9 +1,9 @@
-# From https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/skeletons/tekton/tekton/pipelinerun.yaml
+# Fromm https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/skeletons/tekton/tekton/pipelinerun.yaml
 ---
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  name: elul-3e1607b
+  name: elul-c9d8ceb
   namespace: orchestrator-gitops
   labels:
     backstage.io/kubernetes-id: elul-ci
