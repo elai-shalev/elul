@@ -1,4 +1,4 @@
-# Fromm https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/skeletons/tekton/tekton/pipelinerun.yaml
+# Frommm https://github.com/redhat-developer/red-hat-developer-hub-software-templates/blob/main/skeletons/tekton/tekton/pipelinerun.yaml
 ---
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
