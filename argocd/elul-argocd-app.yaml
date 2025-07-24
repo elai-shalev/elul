@@ -11,7 +11,7 @@ spec:
   destination:
     namespace: rhdh
     server: https://kubernetes.default.svc
-  project: orchestrator-gitops
+  project: rhdh
   source:
     path: ./kustomize/base
     repoURL: git@github.com:elai-shalev/elul-gitops.git
