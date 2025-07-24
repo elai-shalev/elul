@@ -18,9 +18,9 @@ spec:
     - name: convertToFlat
       value: 'true'
     - name: quayOrgName
-      value: elai-shalev
+      value: eshalev
     - name: quayRepoName
-      value: testing1
+      value: elaitest0
     - name: gitHost
       value: github.com
   pipelineRef:
