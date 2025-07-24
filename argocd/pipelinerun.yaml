@@ -3,7 +3,7 @@
 apiVersion: tekton.dev/v1beta1
 kind: PipelineRun
 metadata:
-  name: elul-098c63c
+  name: elul-8139177
   namespace: orchestrator-gitops
   labels:
     backstage.io/kubernetes-id: elul-ci
@@ -18,9 +18,9 @@ spec:
     - name: convertToFlat
       value: 'true'
     - name: quayOrgName
-      value: eshalev
+      value: elai-shalev
     - name: quayRepoName
-      value: elaitest0
+      value: testing1
     - name: gitHost
       value: github.com
   pipelineRef:
