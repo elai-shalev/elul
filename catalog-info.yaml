@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: elul
+  description: elul
+  annotations:
+    argocd/app-selector: rht-gitops.com/janus-argocd=elul
+    backstage.io/kubernetes-namespace: orchestrator-gitops
+    backstage.io/kubernetes-id: elul-ci
+    janus-idp.io/tekton: elul
+    github.com/project-slug: elai-shalev/elul
+    gitlab.com/project-slug: elai-shalev/elul
+spec:
+  type: workflow-project
+  system: system:default/janus-orchestrator
+  lifecycle: development
+  owner: user:default/elai-shalev
